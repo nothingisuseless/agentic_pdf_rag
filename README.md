@@ -33,6 +33,12 @@ source .venv/bin/activate  # On Windows: .venv\Scripts\activate
 # Install Python dependencies
 pip install -r requirements.txt
 
+---
 
-### **Install Dependencies**
+
+### **Pull Required Ollama Models**
 ```bash
+ollama pull llama3
+ollama pull nomic-embed-tex
+
+---
